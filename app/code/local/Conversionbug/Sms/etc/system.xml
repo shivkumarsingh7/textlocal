@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * ConversionBug
+ * @category    SMS
+ * @package     Conversionbug_SMS
+ * @copyright   Copyright (c) 2017 Conversionbug (http://www.conversionbug.com/)
+ * @author      shivam
+ * @email       shivam.kumar@conversionbug.com
+ * @version     Release: 1.0.0.0
+ */
+-->
+<config>
+    <sections>
+        <sms>
+            <label>SMS Settings</label>
+            <tab>cbcore</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>1</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+                <status translate="label">
+                    <label>Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>50</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <expanded>1</expanded>
+                    <fields>
+                        <enable translate="label comment">
+                            <label>Enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </enable>
+                        <username translate="label comment">
+                            <label>username</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>31</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </username>
+                        <hash translate="label comment">
+                            <label>hash</label>
+                            <frontend_type>password</frontend_type>
+                            <sort_order>32</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </hash>
+                        <sender translate="label comment">
+                            <label>sender</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>33</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>0</show_in_website>
+                            <show_in_store>0</show_in_store>
+                        </sender>
+                    </fields>
+                </status>
+            </groups>
+        </sms>
+    </sections>
+</config>

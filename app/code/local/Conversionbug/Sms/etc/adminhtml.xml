@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * ConversionBug
+ * @category    SMS
+ * @package     Conversionbug_SMS
+ * @copyright   Copyright (c) 2017 Conversionbug (http://www.conversionbug.com/)
+ * @author      shivam
+ * @email       shivam.kumar@conversionbug.com
+ * @version     Release: 1.0.0.0
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <all>Allow everything</all>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <sms>
+                                        <title>SMS</title>
+                                        <sort_order>60</sort_order>
+                                    </sms>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

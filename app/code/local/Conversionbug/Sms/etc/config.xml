@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * ConversionBug
+ * @category    SMS
+ * @package     Conversionbug_SMS
+ * @copyright   Copyright (c) 2017 Conversionbug (http://www.conversionbug.com/)
+ * @author      shivam
+ * @email       shivam.kumar@conversionbug.com
+ * @version     Release: 1.0.0.0
+ */
+-->
+<config>
+    <modules>
+        <Conversionbug_Sms>
+            <version>1.0.0.0</version>
+        </Conversionbug_Sms>
+    </modules>
+    <global>
+        <helpers>
+            <cbsms>
+                <class>Conversionbug_Sms_Helper</class>
+            </cbsms>
+        </helpers>
+        <models>
+            <cbsms>
+                <class>Conversionbug_Sms_Model</class>
+            </cbsms>
+        </models>
+    </global>
+</config>
